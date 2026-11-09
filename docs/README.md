@@ -1,5 +1,6 @@
 # COBOL Account Management System
 
+
 This directory documents the COBOL account-management example in `src/cobol`. The program provides a console menu for viewing a balance, crediting an account, and debiting an account.
 
 ## Source files

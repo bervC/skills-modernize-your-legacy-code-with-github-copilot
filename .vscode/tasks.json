@@ -1,0 +1,16 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run COBOL Account Management System",
+			"type": "shell",
+			"command": "bash",
+			"args": [
+				"-lc",
+				"cobc -x src/cobol/main.cob src/cobol/operations.cob src/cobol/data.cob -o accountsystem && ./accountsystem"
+			],
+			"isBackground": false,
+			"problemMatcher": []
+		}
+	]
+}
